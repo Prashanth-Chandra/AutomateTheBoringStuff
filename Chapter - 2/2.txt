@@ -1,0 +1,60 @@
+Q.1
+True and False where T and F are capitalized.
+
+Q.2
+The boolean operators are 'and','or', and 'not'
+
+Q.3
+T and T = T
+T and F = F
+F and T = F
+F and F = F
+T  or T = T
+T  or F = T
+F  or T = T
+F  or F = F
+not T = F
+not F = T
+T = True
+F = False
+
+Q.4
+False
+False
+True
+False
+False
+True
+
+Q.5
+'>','<','==','<=','>=' and '!='
+
+Q.6
+'=' will assign the value to the corresponding variable
+'==' will compare two pieces of data and returns True or False
+
+Q.7
+Condition is a part of the flow control statements which check 1 or more conditions and returns a boolean value.
+
+Q.8
+BLOCK 1 - if spam == 10: # block 1 contains the other 2 blocks in it
+BLOCK 2 - if spam>5:
+BLOCK 3 - else:
+
+Q.9
+In a python file
+
+Q.10
+ctrl+c
+
+Q.11
+The 'break' will exit the loop continuely without checking the next lines and cases of the loop while continue will just skip the next lines and the loop will continue to the next iteration.
+
+Q.12
+All of them do the sme thing they will iterate from the variable = 0 to 9 (10 is not included) in the 3rd we specifically instruct it to iterate with step 1
+
+Q.13
+In a python file
+
+Q.14
+We can call the function bacon from spam by using 'spam.bacon()'

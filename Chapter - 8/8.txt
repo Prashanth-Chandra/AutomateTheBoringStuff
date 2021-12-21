@@ -1,0 +1,21 @@
+Q.1
+No, PyInputPlus does not come with the Python Standard Library but has to be installed using the pip package installer and be imported into the program.
+
+Q.2
+It is commonly imported as pyip so that we can just type pyip instead of pyinputplus in every command.
+
+Q.3
+inputInt() will accept an float or integer and returns an integer where as inputFloat() returns an floating point number.
+
+Q.4
+pyinputplus.inputInt(min=0,max=99) or we can use (greaterThan=-1,lessThan=100)
+
+Q.5
+A list of the strings which we definitely want or which are not needed in the input are passed.
+
+Q.6
+We will get "Blank values are not allowed."
+
+
+Q.7
+The function will output the value 'hello'

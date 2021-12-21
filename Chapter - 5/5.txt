@@ -1,0 +1,23 @@
+Q.1
+a={}
+
+Q.2
+A={'foo':42}
+
+Q.3
+The values are ordered in a list while the values are unordered in a dictionary.
+
+Q.4
+We will get an error called keyerror
+
+Q.5
+It is the same. We can ise spam or spam.keys() to do the same thing i.e. to check the keys in the dictionary
+
+Q.6
+'cat' in spam check if the value is present in the keys and 'cat' in spam.values() will check if 'cat' is resent in the values of the dictenory.
+
+Q.7
+spam.setdefault('colour','black')
+
+Q.8
+import pprint . I.e. the pprint module. And the function is pprint.pprint()

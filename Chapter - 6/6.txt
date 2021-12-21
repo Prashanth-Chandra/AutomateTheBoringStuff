@@ -1,0 +1,37 @@
+Q.1
+Escape characters are a part of a string which are actually impossible to type into the program but can be outputted with help of '/'
+
+Q.2
+\n is for the new line ans '\t' for the tab(multiple spaces)
+
+Q.3
+We can put a '\' in a string by typing '\\'
+
+Q.4
+It is a valid string because it is enclosed with a double quotation (")
+
+Q.5
+By using """(tripls double quotation) at the begining and ending og the string
+
+Q.6
+e
+Hello
+Hello
+lo, world
+
+Q.7
+Hello
+True
+hello
+
+Q.8
+['Remember,','remember,','the','fifth','of','November.']
+There-can-be-only-one.
+
+Q.9
+.rjust()
+.ljust()
+.center()
+
+Q.10
+.rstrip() and .lstrip()

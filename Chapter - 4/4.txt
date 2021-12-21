@@ -1,0 +1,51 @@
+Q.1
+Used to initialize an empty list
+
+Q.2
+spam[2]='hello'
+
+Q.3
+d
+
+Q.4
+d
+
+Q.5
+['a','b']
+
+Q.6
+1
+
+Q.7
+3.14, 'cat', 11, 'cat', True , 99
+
+Q.8
+3.14,  11, 'cat', True
+
+Q.9
++ and * (similar to strings)
+
+Q.10
+append() adds the value at the end while insert() will insert the value at our preffered location
+
+Q.11
+remove() and pop()
+
+Q.12
+We can concatenate two or more lists by using a + operator, we can check their length by using len().
+
+Q.13
+tuples are typed with parentheses, ( and ), instead of square brackets, [ and ]. Tuples are immutable and lists are mutable. 
+
+Q.14
+(42,)
+
+Q.15
+By using tuple() to convert into tuple and list() to convert into string
+
+Q.16
+It contains the references/adress to the list of values
+
+Q.17
+copy.copy() does a shallow copy while copy.deepcopy() does a deep copy.
+ 

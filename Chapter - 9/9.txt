@@ -1,0 +1,32 @@
+Q.1
+Relative path is realtive to our current path/directory
+
+Q.2
+It stars with root folder.
+
+Q.3
+In windows it results to the path C:Users/Al
+
+Q.4
+I gives an error it means dividing 2 strings because Path is not present before the C:/Users
+
+Q.5
+It will change our current directory with the specified directory
+
+Q.6
+'.' is the current folder while '..' is for the parent directory of the current directory.
+
+Q.7
+C:\bacon\eggs is the directory name and spam.txt is the base name
+
+Q.8
+the three modes are 'r' for read, 'w' for write, 'a' for append which is placed after the file path/directory
+
+Q.9
+It will be replaces with a fresh file with no data. We can use append to continue the file
+
+Q.10
+read() will read the entire data as a single line while readline will split the data into the individual lines and returns it in the original form
+
+Q.11
+Shelf is like a dictionary value. We can store a list/set of values in with a specified name.

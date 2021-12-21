@@ -1,0 +1,41 @@
+Q.1
+Operator
+Value
+Value
+Operator
+Operator
+Operator
+Value
+
+Q.2
+Variable
+String
+
+Q.3
+Integer
+String
+Float
+Double
+
+Q.4
+A combination of constants,variables and operators.
+
+Q.5
+Expression will boil down the statement to a single variable or constant while a statement does not.
+
+Q.6
+In both the cases the value of bacon is 20 because we are just adding 1 to the bacon but we are not updating its value or assign it to any other value
+
+Q.7
+spamspamspam
+spamspamspam
+
+Q.8
+We cannot start a variable name with a number
+
+Q.9
+We can convert the given value integer,floating-point number and string by using int(),float(),string()
+
+Q.10
+We cant add strings and numbers we can corect by placing the 99 inside single quotations
+

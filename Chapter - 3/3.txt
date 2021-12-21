@@ -1,0 +1,41 @@
+Q.1
+A function can help us dave time by not needint to write the same logic multiple times and can be updated easily as we need to change it once.
+
+Q.2
+The cde executes only when the function is called.
+
+Q.3
+To create a function we need to use 'def' followed by the name of the function.
+
+Q.4
+Function is a set of commands used by developers to reduce code duplication. It contains def followed by the name of the function and the code of the function while function call is used to run the function.
+
+Q.5
+There is only 1 global scope and local scopes are created when a function is called.
+
+Q.6
+After the return call. all the variables in the local scope are wiped off.
+
+Q.7
+Return value is the value that is the final output of the function which will be returned to the place where the function is called. It can be used in an expression
+
+Q.8
+None
+
+Q.9
+Yes we can force a variable in the function to refer a global by using global followed by the variable name in the function block.
+
+Q.10
+I think that the datatype of None is None data type.
+
+Q.11
+The statement imports the library named areallyourpetsnamederic.
+
+Q.12
+spam.bacon()
+
+Q.13
+By using a 'try' clause
+
+Q.14
+The line of code which might cause an error will go into the try block and if an error is detected the lines of code in the except clause is executed.

@@ -1,0 +1,72 @@
+Q.1
+re.compile()
+
+Q.2
+So that we can use '/' without using the escape character. like we can use just '/' instead of '//' to get '/'
+
+Q.3
+search() will retuen a match  object which is the first occurence of an substring which satisfies the condition of the regex object
+
+Q.4
+group()
+
+Q.5
+group 0:covers the entire matching string 
+group 1:covers the first parentheses
+group 2:covers the second parentheses
+
+Q.6
+Paranthesis and periods can be specified by escaping them using '/'
+
+Q.7
+
+
+Q.8
+It signifies 'or'
+
+Q.9
+? is used when the occurence of a part is not compusory but it accepted even if it occurs. It is used to for non greedy matching.
+
+Q.10
+'+' is used for one or more but '*' is used for 0 or more
+
+Q.11
+{3} signifies that the element has to occur exactly 3 times but {3,5} indicates that the element can occur anywhere between 3 and 5 (inclusive)
+
+Q.12
+\d - Single Digits
+\w - Single Word
+\s - Spaces or tabs
+
+Q.13
+\D - Not A Single Digits
+\W - Not A Single Word
+\S - Not A Spaces or tabs
+
+Q.14
+'.*' is for greedy search
+'.*?' is for non greedy search
+
+Q.15
+[a-z0-9]
+
+Q.16
+by adding re.I after the raw string in the compile() method
+
+Q.17
+'.' matches with any character except the next line character. If re.DOTALL is passed as the 2nd argument it will even match with the next line/ new line character 
+
+Q.18
+X drummers, X pipers, five rings, X hens
+
+Q.19
+We can write our code in multiple lines which helps in better readability in the code and alows us to add comments for every part of the re.compile() code
+
+Q.20
+re.compile(r'^\d{1,3}(,\d{3})*$')
+
+Q.21
+re.compile(r'^[A-Z][a-z]*\sWatanabe')
+
+Q.22
+re.compile(r'^(Alice|Bob|Carol)\s(eats|pets|throws)\s(apples|cats|baseballs)\.$',re.I)
