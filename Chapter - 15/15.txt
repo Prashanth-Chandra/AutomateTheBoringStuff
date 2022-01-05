@@ -1,0 +1,46 @@
+Q.1
+We pass an open() function which contains the filename and the mode to open
+
+Q.2
+Reader() must be opened in 'rb' read binary mode while Writer() must be opened in 'wb' write binary format
+
+Q.3
+variable_containing_the_file_reader.getPage(4)
+
+Q.4
+'numPages' stores the number of pages
+
+Q.5
+We need to decrypt it using 
+pdfReader.decrypt('swordfish')
+
+Q.6
+rotateClockwise(deg)
+rotateCounterClockwise(deg)
+where deg is the number if degrres to be rotated in real number
+
+Q.7
+docx.Document('demo.docx')
+
+Q.8
+Paragraph has one or more runs in it.
+Runs are a set of cntinously occuring characters within a paragraph which has same style of text
+
+Q.9
+docs.paragraphs()
+
+Q.10
+run
+
+Q.11
+True will make the run objects to become bold. False will convert all the bolded run objects to plain text. none will leave it as it was
+
+Q.12
+docx.Document()
+
+Q.13
+doc.add_paragraph('Hello there!')
+
+Q.14
+0,1,2,3,4 will represent the level of headers.
+

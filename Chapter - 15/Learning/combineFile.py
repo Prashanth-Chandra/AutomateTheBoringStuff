@@ -1,0 +1,18 @@
+import PyPDF2 as pdf
+pdf1File=open('meetingminutes.pdf','rb')
+pdf2File=open('meetingminutes2.pdf','rb')
+pdf1Reader=pdf.PdfFileReader(pdf1File)
+pdf2Reader=pdf.PdfFileReader(pdf2File)
+pdfWriter=pdf.PdfFileWriter()
+for pageNum in range(pdf1Reader.numPages):
+    pageObj=pdf1Reader.getPage(pageNum)
+    pdfWriter.addPage(pageObj)
+    pageObj=pdf2Reader.getPage(pageNum)
+    pageObj.rotateClockwise(180)
+    pdfWriter.addPage(pageObj)
+pdfOutputFile=open('CombinedAndRotated.pdf','wb')
+pdfWriter.write(pdfOutputFile)
+pdfOutputFile.close()
+pdf1File.close()
+pdf2File.close()
+print("Done")

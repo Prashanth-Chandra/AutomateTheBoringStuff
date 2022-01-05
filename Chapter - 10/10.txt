@@ -1,0 +1,11 @@
+Q.1
+shutil.copy() will copy only a single file whereas shutil.copytree() will copy all the files and the fiolders in that folder
+
+Q.2
+shutil.move() can be used to rename the file by moving the file into the same directory but with a different name
+
+Q.3
+Deleting using send2trash module will send the files to the recycle bin but using the shutil delete command will permanently delete the files.
+
+Q.4
+I think zipfile.Zipfile() is similar to the open() function because the first part in the brackets has the file name and second part is for the read/write or append module.

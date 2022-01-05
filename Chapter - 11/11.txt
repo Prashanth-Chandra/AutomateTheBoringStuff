@@ -1,0 +1,40 @@
+Q.1
+assert spam>=10,'spam is less than 10'
+
+Q.2
+assert eggs.lower()!=bacon.lower(),'Both bacon and eggs has the same string'
+
+Q.3
+assert True!=True
+
+Q.4
+import logging
+logging.basicConfig(level=logging.DEBUG,format='%(asctime)s-%(levelname)s-%(message)s')
+
+Q.5
+import logging
+logging.basicConfig(filename='programLog.txt',level=logging.DEBUG,format='%(asctime)s-%(levelname)s-%(message)s')
+
+Q.6
+debug,info,warning,error,critical
+
+Q.7
+logging.disable(logging.CRITICAL)
+
+Q.8
+Because when we finish checking our code and start removing the print statements and we may unknowingly remove few print statements what were not supposed to be removed. And in the future while changing the code we have to write the print statements again. And the logging messages show more data like time and and can exclusively show the critical errors or other higher logging error messages.  
+
+Q.9
+Stepover() will skip the function and continues the program
+Stepin() will check the function
+Stepout() will check the function from the first line to the line where this function is invoked.
+
+Q.10
+Debugger will stop when it reaches the end of the program or a line with a breakpoint.
+
+Q.11
+Breakpoint pauses the debugger at that line when the breakpoint line is executed
+
+Q.12
+I dont have Mu so I can comment on that
+

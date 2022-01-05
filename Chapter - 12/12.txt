@@ -1,0 +1,56 @@
+Q.1
+Webbrowser module lets us open specific web-site and requests module helps us download web pages and bs4 parses the html webpage and helps in searching for the required element and selenium helps in opening and controling webpages but it is slow compared to requests module
+
+Q.2
+requests.get() will return an response object. We can access and download it by using its text attribute
+
+Q.3
+raise_for_status() is the best method or we can even use res.status_code == requests.codes.ok
+
+Q.4
+'status_code' is used to check the status code
+
+Q.5
+we need to open the file in 'wb' mode and write it in chunks of 100000 bytes by using the following code
+for chunk in res.iter_content(100000):
+	The_File_In_Which_You_Wnt_To_Save.write(chunk)
+
+Q.6
+In windows use F12
+
+Q.7
+We need to right click on the element that you want to know and select 'Inspect'
+
+Q.8
+#main
+
+Q.9
+.highlight
+
+Q.10
+div div
+
+Q.11
+button[value="favourite"]
+
+Q.12
+spam.getText()
+
+Q.13
+
+
+Q.14
+We need to use from selenium import webdriver to import selenium
+
+Q.15
+find_element_* will locate only the first element
+find_elements_* will locate all the elements
+
+Q.16
+send_keys() method and click() method can be used to simulate keyboard and mouse clicks
+
+Q.17
+submit() method will directly submit the forms
+
+Q.18
+forward(),back(),refresh() will simulate the functions

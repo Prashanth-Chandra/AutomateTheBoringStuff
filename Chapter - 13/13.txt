@@ -1,0 +1,53 @@
+Q.1
+It returns an workbook object
+
+Q.2
+It contains an worksheet object
+
+Q.3
+We can use the command "wb['Sheet1']" to retrieve Sheet1 for the workbook wb
+
+Q.4
+wb.active
+
+Q.5
+sheet.cell(row=5,column=3).value or sheet['C5']
+
+Q.6
+sheet['C5']='Hello'
+
+Q.7
+we can use cell.row and cell.column
+
+Q.8
+sheet.max_column has the highest column that is populated and the sheet.max_row contains the row number that has the maximum populated row
+
+Q.9
+column_index_from_string('M')
+
+Q.10
+get_column_letter(14)
+
+Q.11
+sheet['A1':'F1']
+
+Q.12
+wb.save('example.xlsx')
+
+Q.13
+We can set a formula in a cell by changing the cell's value to a formula text starting with a '='
+
+Q.14
+
+
+Q.15
+sheet.row_dimensions[5].height = 100
+
+Q.16
+sheet.column_dimensions['C'].hidden = True
+
+Q.17
+Freeze panes are rows and columns which will always appear on the screen no matter where we scroll to
+
+Q.18
+openpyxl.chart.Reference(), openpyxl.chart.Series(), openpyxl.chart.BarChart(), chartObj.append(seriesObj) and add_chart()
